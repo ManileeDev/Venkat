@@ -1,0 +1,9 @@
+---
+ -name: Install nginx and Start nginx
+  hosts: all
+  become: true
+
+  task:
+   -name: nginx
+    state: present
+ 
